@@ -1,0 +1,173 @@
+@charset 'UTF-8';
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+header .logo img {
+    height: 60px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+main {
+    flex: 1;
+    padding-top: 80px; /* Espaço para o header fixo */
+}
+
+
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+
+.home {
+    background: url('https://via.placeholder.com/800x400') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home .intro {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.home .intro h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+.home .intro p {
+    font-size: 1.5em;
+}
+
+
+.home .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.home .btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.about, .products, .testimonials, .blog, .contact {
+    background-color: #fff;
+}
+
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+
+.product-list, .highlight-list, .testimonial-list, .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.product, .highlight, .testimonial, .blog-post {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+
+.product img, .highlight img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+
+.testimonial p {
+    font-style: italic;
+}
+
+
+.blog-post a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.blog-post a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
