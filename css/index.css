@@ -122,6 +122,16 @@ h1, h2 {
     justify-content: center;
 }
 
+.saleBt {
+    background-color: rgb(64, 241, 64);
+    border-radius: 15px;
+}
+
+.saleBt:hover {
+    background-color: rgb(5, 204, 5);
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
 
 .product, .highlight, .testimonial, .blog-post {
     margin: 20px;
@@ -132,7 +142,6 @@ h1, h2 {
     text-align: center;
     width: 210px;
 }
-
 
 .product img, .highlight img {
     width: 100%;
