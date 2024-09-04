@@ -10,24 +10,22 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+/*HEADER*/
 
 header {
-    background-color: #000;
+    background: #393b3c;
     color: #fff;
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
     position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    width: 100vw;
+    display: flex;
+    align-items: center;
 }
 
-
-header .logo img {
-    height: 60px;
+nav {
+    width: 60vw;
 }
-
 
 nav ul {
     list-style: none;
@@ -47,18 +45,23 @@ nav ul li a {
     font-weight: bold;
 }
 
+.SilverSlim {
+    height: 80px;
+    padding: 0 0 5px 15px;
+}
+
 
 main {
     flex: 1;
     padding-top: 80px; /* Espaço para o header fixo */
 }
 
+/*first section*/
 
 .section {
     padding: 100px 20px;
     text-align: center;
 }
-
 
 .home {
     background: url('https://via.placeholder.com/800x400') no-repeat center center/cover;
@@ -105,6 +108,7 @@ main {
     color: #fff;
 }
 
+/*two section*/
 
 .about, .products, .testimonials, .blog, .contact {
     background-color: #fff;
@@ -115,6 +119,7 @@ h1, h2 {
     font-family: 'Georgia', serif;
 }
 
+/*three section*/
 
 .product-list, .highlight-list, .testimonial-list, .blog-list {
     display: flex;
@@ -182,26 +187,6 @@ footer {
 }
 
 .logo {
-    font-family: 'Great Vibes', cursive;
-    font-size: 40px;
-    color: #fff;
-    background: linear-gradient(135deg, #c0c0c0, #404040);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    display: flex;
-}
-.logo::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    pointer-events: none;
+    width: 20vw;
 }
 
