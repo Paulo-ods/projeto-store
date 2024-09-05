@@ -46,9 +46,17 @@ nav ul li a {
 }
 
 .SilverSlim {
-    height: 80px;
+    height: 60px;
     padding: 0 0 5px 15px;
 }
+
+.logo {
+    width: 20vw;
+}
+
+
+
+
 
 
 main {
@@ -186,7 +194,8 @@ footer {
     border: 1px solid #000;
 }
 
-.logo {
-    width: 20vw;
+@media (max-width: 768px) {
+    .SilverSlim {
+        display: none;
+    }
 }
-
