@@ -41,7 +41,6 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
 }
 
 
@@ -49,6 +48,13 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    padding: 2rem 1rem 2rem 1rem;
+    transition: all 200ms ease-in;
+}
+
+nav ul li a:hover {
+    border-bottom: 4px solid white;
+    background-color: #505152;
 }
 
 .SilverSlim {
