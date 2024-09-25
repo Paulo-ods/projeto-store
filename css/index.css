@@ -75,11 +75,12 @@ main {
 }
 
 .home {
-    background: url('https://via.placeholder.com/800x400') no-repeat center center/cover;
+    background: url('https://i.pinimg.com/736x/bf/d3/30/bfd330c6fc0ec00a7f04cbebe0fee28f.jpg') no-repeat center center/cover;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 35vh;
 }
 
 
@@ -280,5 +281,10 @@ footer {
 
     .SilverSlim {
         display: none;
+    }
+
+    .ocultarMobile {
+        transform: scale(0.6) translateY(67px); /* Reduz para 50% do tamanho original */
+        transform-origin: bottom; /* Escala a partir do centro do elemento */
     }
 }
