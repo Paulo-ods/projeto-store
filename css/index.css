@@ -203,8 +203,9 @@ footer {
 }
 
 @media (max-width: 870px) {
-    .content {
-        padding: 2px 25px;
+
+    .logo {
+        padding-left: 15px;
     }
 
     .content .list-menu{
@@ -287,4 +288,11 @@ footer {
         transform: scale(0.6) translateY(67px); /* Reduz para 50% do tamanho original */
         transform-origin: bottom; /* Escala a partir do centro do elemento */
     }
+}
+
+@media (max-width: 399px){
+    .contentsobre p {
+        text-align: justify;
+        width: 270px;
+     }
 }
